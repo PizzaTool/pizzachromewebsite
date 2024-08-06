@@ -1,0 +1,26 @@
+{
+  "Hero": {
+    "h2": "Una herramienta multifuncional de navegador de huellas digitales",
+    "h3": "Gestión automatizada",
+    "h4": "Funciones de múltiples escenarios",
+    "h5": "Simplifica fácilmente la creación, gestión y protección de seguridad de múltiples cuentas en línea",
+    "btn": "Descargar"
+  },
+  "Feature": {
+    "h2": "Característica",
+    "h3": "Pizza Chrome",
+    "description1": "Una herramienta Web3 segura y estable a bajo costo que admite múltiples plataformas."
+  },
+  "Pricing": {
+    "h2": "Precios",
+    "h3": "Elige tu plan",
+    "description": "Selecciona el plan que mejor se adapte a tus necesidades.",
+    "doYouLike": "¿Te gusta esta plantilla de página de destino?",
+    "follow": "Sígueme en Twitter."
+  },
+  "Faq": {
+    "h2": "Preguntas frecuentes",
+    "h3": "Preguntas frecuentes",
+    "description": "Aquí están algunas de las preguntas más comunes."
+  }
+}

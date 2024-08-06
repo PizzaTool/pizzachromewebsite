@@ -1,0 +1,26 @@
+{
+  "Hero": {
+    "h2": "Un outil multifonctionnel de navigateur d'empreintes digitales",
+    "h3": "Gestion automatisée",
+    "h4": "Fonctions multi-scénarios",
+    "h5": "Simplifiez facilement la création, la gestion et la protection de plusieurs comptes en ligne",
+    "btn": "Télécharger"
+  },
+  "Feature": {
+    "h2": "Caractéristique",
+    "h3": "Pizza Chrome",
+    "description1": "Un outil Web3 sécurisé, stable et à faible coût qui prend en charge plusieurs plateformes."
+  },
+  "Pricing": {
+    "h2": "Tarification",
+    "h3": "Choisissez votre plan",
+    "description": "Sélectionnez le plan qui convient le mieux à vos besoins.",
+    "doYouLike": "Aimez-vous ce modèle de page de destination?",
+    "follow": "Suivez-moi sur Twitter."
+  },
+  "Faq": {
+    "h2": "FAQ",
+    "h3": "Questions fréquemment posées",
+    "description": "Voici quelques-unes des questions les plus courantes."
+  }
+}

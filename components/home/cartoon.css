@@ -1,0 +1,249 @@
+.manage-placeholder {
+	position: relative;
+	width: 6.4rem
+}
+
+.manage-placeholder:before {
+	padding-right: 10rem;
+	content: ""
+}
+
+.manage-placeholder span {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0.01em;
+	white-space: nowrap;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	clip-path: inset(0% 0% 0% 100%);
+	-webkit-clip-path: inset(0% 0% 0% 100%)
+}
+
+.manage-placeholder span:after {
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #2F363D;
+	clip-path: inset(0% % 0% 100%);
+	-webkit-clip-path: inset(0% 0% 0% 100%)
+}
+
+.manage-placeholder span.manage-visible {
+	animation: limit;
+	animation-duration: 2s
+}
+
+.manage-placeholder span.manage-visible:after {
+	animation: swipe;
+	animation-duration: 2s
+}
+
+.ebay-style {
+	background-image: linear-gradient(to right, #e53238 27%, #0064d3 27%, #0064d3 52%, #f5af02 52%, #f5af02 76%, #86b817 76%)
+}
+
+.googl-style {
+	background-image: linear-gradient(to right, #4285f4 20%, #db4437 20%, #db4437 38%, #f4b400 38%, #f4b400 56%, #4285f4 56%, #4285f4 74%, #0f9d58, 74%, #0f9d58 84%, #e53238 84%)
+}
+
+.face-style{
+	background-color: #4267b2;
+}
+
+@keyframes swipe {
+	0% {
+		clip-path: inset(0% 0% 0% 100%);
+		-webkit-clip-path: inset(0% 0% 0% 100%)
+	}
+
+	10% {
+		clip-path: inset(0% 0% 0% 0%);
+		-webkit-clip-path: inset(0% 0% 0% 0%)
+	}
+
+	20% {
+		clip-path: inset(0% 100% 0% 0%);
+		-webkit-clip-path: inset(0% 100% 0% 0%)
+	}
+
+	80% {
+		clip-path: inset(0% 100% 0% 0%);
+		-webkit-clip-path: inset(0% 100% 0% 0%)
+	}
+
+	90% {
+		clip-path: inset(0% 0% 0% 0%);
+		-webkit-clip-path: inset(0% 0% 0% 0%)
+	}
+
+	100% {
+		clip-path: inset(0% 0% 0% 100%);
+		-webkit-clip-path: inset(0% 0% 0% 100%)
+	}
+}
+
+@keyframes limit {
+	0% {
+		clip-path: inset(0% 0% 0% 100%);
+		-webkit-clip-path: inset(0% 0% 0% 100%)
+	}
+
+	20% {
+		clip-path: inset(0% 0% 0% 0%);
+		-webkit-clip-path: inset(0% 0% 0% 0%)
+	}
+
+	80% {
+		clip-path: inset(0% 0% 0% 0%);
+		-webkit-clip-path: inset(0% 0% 0% 0%)
+	}
+
+	100% {
+		clip-path: inset(0% 0% 0% 100%);
+		-webkit-clip-path: inset(0% 0% 0% 100%)
+	}
+}
+
+.download-button {
+	display: flex;
+	flex-direction: column;
+	height: 2.5rem;
+	overflow: visible;
+	width: fit-content;
+	position: relative;
+	gap: -1px;
+	z-index: 1;
+	background: linear-gradient(to bottom, #ffe164 2.5rem, #ffffff 2.5rem);
+	min-width: 260px;
+	min-height: 3rem;
+	border-radius: 12px;
+	margin: 0 auto;
+}
+
+.download-link{
+	opacity: 1;
+	background: #ffe164;
+	border-radius: 12px;
+	font-weight: 500;
+	padding: 0 3rem 0 3rem;
+	order: -1;
+	appearance: none;
+	font-family: Rubik;
+	font-size: 16px;
+	line-height: 3rem;
+	transition: 0.25s;
+	color: #24292e;
+	cursor: pointer;
+	position: relative;
+}
+
+.download-link::before{
+	background-size: contain;
+	position: absolute;
+	left: 1rem;
+	width: 16px;
+	height: 16px;
+	line-height: 3rem;
+	display: inline-block;
+	top: 50%;
+	transform: translatey(-50%);
+	content: "";
+}
+
+.download-expand {
+	position: absolute;
+	top: 0rem;
+	right: 0;
+	height: 3rem;
+	width: 3rem;
+	text-align: center;
+	font-size: 12px;
+	background: #ffe164;
+	border-radius: 0 12px 12px 0;
+	cursor: pointer;
+	appearance: none;
+}
+
+.download-expand:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.5rem;
+	width: 1px;
+	height: 2rem;
+	background: #c5b571;
+}
+
+
+.arrow-right {
+	position: relative;
+	display: inline-block;
+	padding-left: 20px;
+}
+.arrow-right::after{
+	content: &#39;;
+	width: 6px;
+	height: 6px;
+	border: 0;
+	border-top: solid 2px #000;
+	border-right: solid 2px #000;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -4px;
+}
+
+.select-link{
+	opacity: 1;
+	background: #fff;
+	font-weight: 500;
+	padding: 0 0 0 3rem;
+	order: -1;
+	appearance: none;
+	font-family: Rubik;
+	font-size: 16px;
+	line-height: 3rem;
+	transition: 0.25s;
+	color: #24292e;
+	cursor: pointer;
+	position: relative;
+	text-align: left;
+}
+
+.select-link::before{
+	background-size: contain;
+	position: absolute;
+	left: 1rem;
+	width: 16px;
+	height: 16px;
+	line-height: 3rem;
+	display: inline-block;
+	top: 50%;
+	transform: translatey(-50%);
+	content: "";
+}
+ 
+.select-link:hover{
+	background: #e8e8e9;
+}
+
+.icon-win::before{
+	background: url(https://gologin.com/wp-content/uploads/img/icons/windows.svg) center no-repeat;
+}
+
+.icon-lin::before{
+	background: url(https://gologin.com/wp-content/uploads/img/icons/linux.svg) center no-repeat;
+}
+
+.icon-mac::before{
+	background: url(https://gologin.com/wp-content/uploads/img/icons/apple.svg) center no-repeat;
+}

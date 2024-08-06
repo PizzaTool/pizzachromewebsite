@@ -1,0 +1,26 @@
+{
+  "Hero": {
+    "h2": "A Multifunctional Fingerprint Browser Tool",
+    "h3": "Automated Management",
+    "h4": "Multi-Scenario Functions",
+    "h5": "Easily Simplify the Creation, Management, and Security of Multiple Online Accounts",
+    "btn": "Download"
+  },
+  "Feature": {
+    "h2": "Feature",
+    "h3": "Pizza Chrome",
+    "description1": "A low-cost, secure, and stable Web3 tool that supports multiple platforms."
+  },
+  "Pricing": {
+    "h2": "Pricing",
+    "h3": "Choose Your Plan",
+    "description": "Select the plan that best suits your needs.",
+    "doYouLike": "Do you like this landing page template?",
+    "follow": "Follow me on Twitter."
+  },
+  "Faq": {
+    "h2": "FAQ",
+    "h3": "Frequently Asked Questions",
+    "description": "Here are some of the most common questions."
+  }
+}
