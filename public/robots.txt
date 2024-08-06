@@ -4,3 +4,6 @@ Allow: /
 
 # Host
 Host: https://pizzachrome.org
+
+# Sitemaps
+Sitemap: https://pizzachrome.org/sitemap.xml
