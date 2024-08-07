@@ -10,9 +10,12 @@ import Cta from '@/components/home/cta';
 export function generateStaticParams() {
 	return [
 	  { lang: 'en' },
+	  { lang: 'zh' },
+	  { lang: 'ja' },
+	  { lang: 'ar' },
 	  { lang: 'es' },
+	  { lang: 'ru' },
 	  { lang: 'fr' }
-	  // 添加你需要支持的所有语言
 	]
   }
 
