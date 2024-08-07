@@ -38,7 +38,7 @@ export default function Navbar() {
 				<Image
 					width={200}
 					height={200}
-					src={'/logo.png'}
+					src={'logo.png'}
 					className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
 					alt='logo'
 				></Image>
