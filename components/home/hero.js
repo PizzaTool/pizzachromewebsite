@@ -130,7 +130,7 @@ export default function Hero({ locale, CTALocale }) {
 					<Image
 						width={3198}
 						height={1870}
-						src={'/og.png'}
+						src={'og.png'}
 						className='hidden md:flex w-full -mt-10'
 						alt='app demo'
 					/>
