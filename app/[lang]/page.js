@@ -6,6 +6,16 @@ import Pricing from '@/components/home/pricing';
 import Testimonial from '@/components/home/testimonial';
 import Faq from '@/components/home/faq';
 import Cta from '@/components/home/cta';
+
+export function generateStaticParams() {
+	return [
+	  { lang: 'en' },
+	  { lang: 'es' },
+	  { lang: 'fr' }
+	  // 添加你需要支持的所有语言
+	]
+  }
+
 export default async function Home({ params }) {
 	const langName = params.lang || defaultLocale;
 	const dict = await getDictionary(langName); // 获取内容
