@@ -125,6 +125,21 @@
 	border-radius: 12px;
 	margin: 0 auto;
 }
+.download-buttonS {
+ display: flex;
+ flex-direction: column;
+ height: 8.5rem;
+ overflow: visible;
+ width: fit-content;
+ position: relative;
+ gap: -1px;
+ z-index: 10;
+ background: linear-gradient(to bottom, #ffe164 2.5rem, #ffffff 2.5rem);
+ min-width: 260px;
+ min-height: 3rem;
+ border-radius: 12px;
+ margin: 0 auto;
+}
 
 .download-link{
 	opacity: 1;
