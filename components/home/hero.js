@@ -66,7 +66,7 @@ export default function Hero({ locale, CTALocale }) {
 		}else if(type == 2){  //Linux
 			window.open('https://download.pizzachrome.org/pizzachrome.dmg')
 		}else if(type == 3){  //Mac Intel
-			window.open('https://download.pizzachrome.org/pizzachrome.dmg')
+			window.open('https://download.pizzachrome.org/pizzachrome_intel.dmg')
 		}else if(type == 4){  //Mac M
 			window.open('https://download.pizzachrome.org/pizzachrome.dmg')
 		}
@@ -101,7 +101,7 @@ export default function Hero({ locale, CTALocale }) {
 					<h3 className='w-full mx-auto text-xl text-base-content/80 md:text-center mb-3'>{locale.h4}</h3>
 					<div className='w-full mx-auto text-xl text-sm text-base-content/80 md:text-center mb-3'>{locale.h5}</div>
 					
-					<div className='download-button relative'>
+					<div className={`relative ${isShow ? 'download-buttonS':'download-button'}` }>
 						{systemInfo == "Windows"?<button className='download-link icon-win' onClick={() => handleNavClick(1)}>{locale.btn} {systemInfo}</button>:''}
 						{systemInfo == "Mac Intel"?<button className='download-link icon-mac' onClick={() => handleNavClick(3)}>{locale.btn} {systemInfo}</button>:''}
 						
