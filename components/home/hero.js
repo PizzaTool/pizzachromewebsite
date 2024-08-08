@@ -37,6 +37,8 @@ export default function Hero({ locale, CTALocale }) {
 				setSystemInfo("Linux");
 			}else if(userAgent == "Win16" || userAgent == "Win32"){
 				setSystemInfo("Windows");
+			}else{
+				setSystemInfo("Windows");
 			}
 		};
 		getSystemInfo();
