@@ -70,7 +70,7 @@ export default function Hero({ locale, CTALocale }) {
 		}else if(type == 3){  //Mac Intel
 			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/')
 		}else if(type == 4){  //Mac M
-			window.open(https://github.com/PizzaTool/pizzachromewebsite/releases/')
+			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/')
 		}
 	}
 
