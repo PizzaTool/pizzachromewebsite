@@ -64,7 +64,7 @@ export default function Hero({ locale, CTALocale }) {
 	
 	const handleNavClick = (type) => {
 		if(type == 1){  //windows
-			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/download/pizzachrome/pizzachrome.exe')
+			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/download/pizzachrome2.0.1/PizzaChrome-installer.exe')
 		}else if(type == 2){  //Linux
 			window.open('https://download.pizzachrome.org/pizzachrome.dmg')
 		}else if(type == 3){  //Mac Intel
