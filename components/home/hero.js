@@ -64,13 +64,13 @@ export default function Hero({ locale, CTALocale }) {
 	
 	const handleNavClick = (type) => {
 		if(type == 1){  //windows
-			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/download/pizzachrome/pizzachrome.exe')
+			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/')
 		}else if(type == 2){  //Linux
-			window.open('https://download.pizzachrome.org/pizzachrome.dmg')
+			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/')
 		}else if(type == 3){  //Mac Intel
-			window.open('https://download.pizzachrome.org/pizzachrome_intel.dmg')
+			window.open('https://github.com/PizzaTool/pizzachromewebsite/releases/')
 		}else if(type == 4){  //Mac M
-			window.open('https://download.pizzachrome.org/pizzachrome.dmg')
+			window.open(https://github.com/PizzaTool/pizzachromewebsite/releases/')
 		}
 	}
 
